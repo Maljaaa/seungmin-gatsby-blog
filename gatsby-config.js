@@ -4,7 +4,10 @@
 module.exports = {
   siteMetadata: {
     title: `seungmin-gatsby-blog`,
-    siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: `https://82228.gatsbyjs.io/`,
   },
-  plugins: [],
+  plugins: [
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+  ],
 }
